@@ -4,7 +4,7 @@ public class Bicycle {
 
 
     // Bike init function, the syntax in order should be (color, size, wheel size, wheel width, seat hight, )
-    public static void Bicycle()
+    public Bicycle(String Color, String Size, String wheelSize, int wheelWidth, int seatHight)
     {
 
 
