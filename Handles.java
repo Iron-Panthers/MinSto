@@ -1,8 +1,8 @@
 
 public class Handles {
    
-    public static void Direction() {
-       System.out.println("the bike turns");
+    public static String Direction(String bikeDirection) {
+        System.out.println("the bike turns" + bikeDirection);
        
         /* boolean left = false;
         boolean right = false;
@@ -13,13 +13,15 @@ public class Handles {
             System.out.println("bike turns right");
         } else {
             System.out.println("bike goes straight forward"); 
-        }
-        */
+        } */
+        
+        return bikeDirection;
     }
 
-    static String Shape(String handleShape) {
+    public static String Shape(String handleShape) {
+        System.out.println("the bike turns " + handleShape); 
         return handleShape;
-
-
     }
+
+
 }
