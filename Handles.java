@@ -1,26 +1,22 @@
 
 public class Handles {
    
-    public static String Direction(String bikeDirection) {
-        System.out.println("the bike turns" + bikeDirection);
-       
-        /* boolean left = false;
-        boolean right = false;
+    public String direction;
 
-        if (left = true) {
-            System.out.println("bike turns left");
-        } else if (right = true) {
-            System.out.println("bike turns right");
-        } else {
-            System.out.println("bike goes straight forward"); 
-        } */
-        
-        return bikeDirection;
+    public Handles(String direction)
+    {
+        this.direction = direction;
     }
 
-    public static String Shape(String handleShape) {
-        System.out.println("the bike turns " + handleShape); 
-        return handleShape;
+    public void getDirection()
+    {
+        System.out.println("The bike is currently being turned " + direction);
+    }
+
+    public void changeDirection(String dir)
+    {
+        this.direction = dir;
+        System.out.println("The bike is now turning " + dir);
     }
 
 
